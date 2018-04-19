@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "296376855603",
+    "firebase_url": "https://awesomebibleapp.firebaseio.com",
+    "project_id": "awesomebibleapp",
+    "storage_bucket": "awesomebibleapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296376855603:android:e88cc28be6429da8",
+        "android_client_info": {
+          "package_name": "com.handsfree.stonyleverage.biblepeoplequiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296376855603-8hscdfsp40vqa8g8skh0lf43rn43gvad.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.handsfree.stonyleverage.biblepeoplequiz",
+            "certificate_hash": "73b777b6f260111489e527f5979d254d8421c896"
+          }
+        },
+        {
+          "client_id": "296376855603-uj87e260hrp84mpu55rtps987b634k2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDvnwlyVgFtnU1sAZ8U8-yeEUZGoXYp6k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "296376855603-uj87e260hrp84mpu55rtps987b634k2f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

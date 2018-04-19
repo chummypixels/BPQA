@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:background="@drawable/star">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/wrap_login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="280dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="16dp"
+                android:src="@drawable/bible_quiz_logo"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"/>
+
+
+            <Button
+                android:id="@+id/btnSignIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_login"
+                android:text="Log in"
+                android:textColor="#f16f7d"
+                android:textAllCaps="false"
+                android:padding="16dp"
+                android:textSize="18sp"
+                android:clickable="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginTop="24dp"/>
+
+            <Button
+                android:id="@+id/btnSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_signup"
+                android:text="Sign up"
+                android:textSize="18sp"
+                android:textColor="#fff"
+                android:textAllCaps="false"
+                android:padding="16dp"
+                android:clickable="true"
+                android:layout_marginTop="10dp"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot your password"
+                style="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#fff"
+                android:padding="16dp"
+                android:clickable="true"
+                android:layout_marginBottom="16dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
